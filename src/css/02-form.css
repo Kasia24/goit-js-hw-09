@@ -1,4 +1,5 @@
 .feedback-form {
+  flex: wrap;
   display: block;
 }
 .email-class {
@@ -18,4 +19,14 @@
   letter-spacing: 0.04em;
   text-align: left;
   color: rgba(46, 47, 66, 1);
+}
+.btn {
+  width: Hug (95px) px;
+  height: Hug (40px) px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  background-color: rgba(78, 117, 255, 1);
+  color: white;
 }
