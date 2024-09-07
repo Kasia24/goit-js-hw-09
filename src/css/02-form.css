@@ -1,6 +1,7 @@
 .feedback-form {
-  flex: wrap;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 .email-class {
   font-family: Montserrat;
