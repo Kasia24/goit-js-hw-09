@@ -64,7 +64,7 @@ const images = [
   },
 ];
 import SimpleLightbox from '/simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+import '/simplelightbox/dist/simple-lightbox.min.css';
 
 //Generowanie układu galerii
 const galleryContainer = document.querySelector('.gallery');
