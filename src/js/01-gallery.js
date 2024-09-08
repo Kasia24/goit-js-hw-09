@@ -83,7 +83,6 @@ const galleryItemsMarkup = images
 
 galleryContainer.insertAdjacentHTML = galleryItemsMarkup;
 
-import SimpleLightbox from 'https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.esm.min.js';
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionPosition: 'bottom',
