@@ -79,7 +79,7 @@ const galleryItemsMarkup = images
   })
   .join('');
 
-galleryContainer.insertAdjacentHTML = galleryItemsMarkup;
+galleryContainer.insertAdjacentHTML('beforeend', galleryItemsMarkup);
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
