@@ -4,5 +4,5 @@ import"./assets/modulepreload-polyfill-B5Qt9EMX.js";const i=[{preview:"https://c
           <img class="gallery-image" src="${o}" alt="${a}" />
         </a>
       </li>
-    `).join("");t.insertAdjacentHTML=e;new SimpleLightbox(".gallery a",{captionsData:"alt",captionPosition:"bottom",captionDelay:250});
+    `).join("");t.insertAdjacentHTML("beforeend",e);new SimpleLightbox(".gallery a",{captionsData:"alt",captionPosition:"bottom",captionDelay:250});
 //# sourceMappingURL=01-gallery.js.map
