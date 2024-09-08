@@ -63,8 +63,6 @@ const images = [
     description: 'Lighthouse Coast Sea',
   },
 ];
-import SimpleLightbox from '.simplelightbox';
-import '.simplelightbox/dist/simple-lightbox.min.css';
 
 //Generowanie układu galerii
 const galleryContainer = document.querySelector('.gallery');
